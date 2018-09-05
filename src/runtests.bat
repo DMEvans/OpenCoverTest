@@ -1,0 +1,3 @@
+".\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe" -register:user -target:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" -targetargs:".\OpenCoverTest.Tests\bin\Debug\OpenCoverTest.Tests.dll .\OpenCoverTest.Tests2\bin\Debug\OpenCoverTest.Tests2.dll /logger:trx" -output:".\TestResults\OpenCoverTests.xml" -mergebyhash
+
+".\packages\ReportGenerator.3.1.2\tools\ReportGenerator.exe" -reports:".\TestResults\OpenCoverTests.xml" -targetdir:".\Coverage"
