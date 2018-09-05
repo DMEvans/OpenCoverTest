@@ -6,7 +6,7 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    public class Multiplier : ICalculator
+    public class Multiplier
     {
         public decimal Calculate(decimal value1, decimal value2)
         {
