@@ -19,5 +19,18 @@ namespace OpenCoverTest.Tests
 
             Assert.AreEqual(100, result);
         }
+
+        [TestMethod]
+        public void CalculateTest2()
+        {
+            var multiplier = new Multiplier();
+
+            var value1 = 2;
+            var value2 = 5;
+
+            var result = multiplier.Calculate(value1, value2);
+
+            Assert.AreEqual(10, result);
+        }
     }
 }
